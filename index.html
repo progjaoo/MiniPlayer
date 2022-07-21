@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Poppins:wght@100;400&family=Roboto:ital,wght@1,100&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <title>Player Music</title>
+</head>
+<body>
+   <div class="hero">
+    <div class="music">
+        <img src="./img/download.jpg" alt="">
+        <div class="info">
+            <h2>Anno domini beats - Warzone</h2>
+            <p>Album - Youtube Music</p>
+            <div id="waveform"></div>
+            <div class="controls">
+                <img src="./img/play.png" id="playBtn">
+                <img src="./img/stop.png" id="stopBtn">
+                <img src="./img/volume.png" id="soundBtn">
+            </div>
+        </div>
+        <!--info-->
+    </div>
+        <!--music-->
+   </div>
+   <!--hero-->
+
+   <script src="https://unpkg.com/wavesurfer.js"></script>
+</body>
+<script src="player.js"></script>
+</html>
